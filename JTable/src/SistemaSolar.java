@@ -29,7 +29,7 @@ class MarcoDelArbol extends JFrame {
         
         setBounds(400, 300, 500, 400);
 
-        JTable tablaPlanetas=new JTable(datosFila, nombresColumnas );
+        JTable tablaPlanetas=new JTable(datosFila, nombresColumnas ); //creo el JTable con los parámetros de las filas y las columnas
         add(new JScrollPane(tablaPlanetas), BorderLayout.CENTER);
 
         JButton botonImprimir=new JButton("Imprimir tabla");
