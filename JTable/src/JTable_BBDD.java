@@ -1,6 +1,5 @@
+package JTable;
 import java.awt.*;
-
-import javax.naming.spi.DirStateFactory.Result;
 import javax.swing.*;
 import java.sql.*;
 
@@ -67,14 +66,14 @@ class MarcoDelArbol extends JFrame {
 /*
 *  pwd
 *
-* cd /home/marisol/eclipse-workspace/PROYECTO/JDBC/JavaDataBaseConnectivity
+* cd /home/marisol/eclipse-workspace/PROYECTO/Anexo/JTable
 *
 * ls lib/mysql-connector-java-9.4.0.jar
 *
-* ls ~/eclipse-workspace/PROYECTO/JDBC/JavaDataBaseConnectivity/lib/mysql-connector-java-9.4.0.jar
+* ls ~/eclipse-workspace/PROYECTO/Anexo/JTable/lib/mysql-connector-java-9.4.0.jar
 *
 *
-javac -d bin -cp "lib/mysql-connector-java-9.4.0.jar" src/conectaBD/ModificaBDD.java
-java -cp "bin:lib/mysql-connector-java-9.4.0.jar" conectaBD.ModificaBDD
+javac -d bin -cp "lib/mysql-connector-java-9.4.0.jar" src/JTable_BBDD.java
+java -cp "bin:lib/mysql-connector-java-9.4.0.jar" JTable.JTable_BBDD
 */
 
