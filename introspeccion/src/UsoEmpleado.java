@@ -8,10 +8,22 @@ public class UsoEmpleado { //con esta es con la que va a arrancar el sistema
         System.out.println(empleado1.getSalario());
 
        // System.out.println(persona1.getClass()); //DEVUELVE LA CLASE A LA QUE PERTENECE EL OBJETO (PRINCIPIO DE INTROSPECCION)
-// ESTE METODO NOS DEVUELVE UN OBJETO DE TIPO CLASS 
+       // ESTE METODO NOS DEVUELVE UN OBJETO DE TIPO CLASS 
 
-Class cl1=persona1.getClass(); //OBTENEMOS LA CLASE A LA QUE PERTENECE EL OBJETO persona1
-System.out.println(cl1.getName()); //DEVUELVE EL NOMBRE DE LA CLASE (de la identidad) A LA QUE PERTENECE EL OBJETO persona1
+        //Class cl1=persona1.getClass(); //OBTENEMOS LA CLASE A LA QUE PERTENECE EL OBJETO persona1
+        //System.out.println(cl1.getName()); //DEVUELVE EL NOMBRE DE LA CLASE (de la identidad) A LA QUE PERTENECE EL OBJETO persona1
+
+
+        String nombreClasePersona="Persona"; //NOMBRE COMPLETO DE LA CLASE (CON PAQUETE INCLUIDO)
+        try {
+            Class<?> cl2 = Class.forName(nombreClasePersona); //OBTENEMOS LA CLASE A PARTIR DE SU NOMBRE COMPLETO
+            System.out.println("Nombre de la clase obtenida: " + cl2.getName());
+           
+        } catch (Exception e) {
+            e.printStackTrace();
+
+        }
+
 
     }
 }
