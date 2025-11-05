@@ -6,6 +6,13 @@ public class UsoEmpleado { //con esta es con la que va a arrancar el sistema
         Empleado empleado1 = new Empleado("Ana", "Gomez", 3000);    
         System.out.println("El nombre del empleado es: " + empleado1.getNombre() + " " + empleado1.getApellido());
         System.out.println(empleado1.getSalario());
+
+       // System.out.println(persona1.getClass()); //DEVUELVE LA CLASE A LA QUE PERTENECE EL OBJETO (PRINCIPIO DE INTROSPECCION)
+// ESTE METODO NOS DEVUELVE UN OBJETO DE TIPO CLASS 
+
+Class cl1=persona1.getClass(); //OBTENEMOS LA CLASE A LA QUE PERTENECE EL OBJETO persona1
+System.out.println(cl1.getName()); //DEVUELVE EL NOMBRE DE LA CLASE (de la identidad) A LA QUE PERTENECE EL OBJETO persona1
+
     }
 }
 
