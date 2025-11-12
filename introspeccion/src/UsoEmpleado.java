@@ -1,3 +1,4 @@
+package src;
 public class UsoEmpleado { //con esta es con la que va a arrancar el sistema
     public static void main(String[] args) {
       Persona persona1 = new Persona("Juan", "Perez");

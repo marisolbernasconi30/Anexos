@@ -99,7 +99,7 @@ ImprimirCampos(clase); //es un metodo que va a imprimir los campos
 
         } // hasta aca, ya obtuvimos los parametros del metodo
 
-        System.out.print(");"); //cierro el parentesis del metodo
+        System.out.println(");"); //cierro el parentesis del metodo
 
       } //cierro el for  que imprime los parametros 
 
